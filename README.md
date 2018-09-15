@@ -1,27 +1,75 @@
-# CGInteractive
+# Documentation
+## Goals
+This website aims to provide a comprehensive explanation of knowledge involved in Graphic Programing. With this application, students can first learn necessary mathematics and implement them in a graphic playground. Then, they can explore more about the rendering pipeline and techniques in OpenGL. Eventually, students could accomplish basic graphic programs by their own.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
+## Objectives
+  1. Rendering pipeline
+  2. Coordinates
+     * Left Hand Coordinate System
+     * Different Coordinate System
+  3. Matrices
+     * Transformation Matrix
+     * Model Matrix
+     * View Matrix
+     * Projection Matrix
+  4. Lighting
+     * Basic Lighting (BRDF)
+        * Vertex Lighting
+        * Fragment Lighting
+     * Advanced Lighting
+        * Ray-tracing
+        * Photon Map
+  5. ~~Shader~~
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## General Design
+  * Page Structure
+    ```
+      - Header
+        -- Website Logo
+        -- Navigation Bar
+      - Content
+        -- Reading Material
+        -- Table of Content
+        -- WebGL Demo
+      - Footer
+        -- MIT License
+        -- GitHub
+      ```
 
-## Code scaffolding
+### To Do List
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  - [ ] Page Structure
+      - [ ] Header
+        - [ ] Website Log
+        - [ ] Navigation Bar
+      - [X] Content
+        - [X] Reading Material (Placeholder)
+        - [X] Table of Content
+        - [X] WebGL Demo (Placeholder)
+      - [ ] Footer
+        - [ ] MIT License
+        - [ ] GitHub  
 
-## Build
+## Technical Concepts
+  1. [Angular CLI](https://cli.angular.io/)
+      * Modules:
+        * `Angular Content` from [Gerard Rovira Sánchez](https://github.com/zurfyx/angular-contents)
+  2. [NodeJS](https://nodejs.org/)
+  3. [WebGL](https://www.khronos.org/webgl/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Note
+  * Development Website: [localhost:4200](#)
+  * common commands
+    * `ng serve` to start Angular development server
+    * `ng generate component xx/xxx` to generate new Angular component
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Reference
+  * [Angular constructor versus ngOnInit](https://toddmotto.com/angular-constructor-ngoninit-lifecycle-hook)
+  * [W3schools](https://www.w3schools.com)
