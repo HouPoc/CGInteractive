@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { LayoutModule } from '@angular/cdk/layout';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -17,7 +19,9 @@ import { ReaderComponent } from './components/reader/reader.component';
   ],
   imports: [
     BrowserModule,
-    LayoutModule
+    LayoutModule,
+    BrowserAnimationsModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
