@@ -1,1 +1,16 @@
+.mat-sidenav-container{
+  margin-top: 60px;
+}
 
+.mat-sidenav-content {
+  padding-top: 40px;
+  padding-left: 20px;
+}
+.mat-sidenav {
+  position: fixed;
+  box-shadow: 6px 0 6px rgba(0,0,0,.1);
+  width: 120px;
+  top: 64px;
+  background-color: white;
+  padding-top: 20px;
+}

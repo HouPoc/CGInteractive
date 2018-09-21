@@ -43,7 +43,7 @@ This website aims to provide a comprehensive explanation of knowledge involved i
       - [ ] Header
         - [ ] Website Log
         - [ ] Navigation Bar
-      - [X] Content
+      - [X] Viewer
         - [X] Reading Material (Placeholder)
         - [X] Table of Content
         - [X] WebGL Demo (Placeholder)
