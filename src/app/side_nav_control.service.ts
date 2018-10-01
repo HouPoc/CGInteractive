@@ -7,13 +7,11 @@ import { MatSidenav, MatDrawerToggleResult } from '@angular/material/sidenav';
 export class side_nav_control_service {
   public sidenav: MatSidenav;
 
-	public setSidenav(sidenav: MatSidenav) {
-		this.sidenav = sidenav;
-    console.log(this.sidenav.opened);
+  public setSidenav(sidenav: MatSidenav) {
+  this.sidenav = sidenav;
+  }
 
-	}
-
-  public getside(){
+  public getside() {
     this.sidenav.toggle();
   }
 

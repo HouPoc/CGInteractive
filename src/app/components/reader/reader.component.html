@@ -1,8 +1,14 @@
 <!--Responsive Doc Viewer with Side Navigation-->
 <mat-sidenav-container  style="width: 100%">
   <mat-sidenav #sideNav opened mode="side" class = "side-nav" >
-
+     <a  href="#" *ngFor="let section of sections"> {{section.name}}</a>
   </mat-sidenav>
   <mat-sidenav-content>
+    <div class="text_content">
+      <div class="text_content_section" *ngFor="let section of sections">
+           {{section.name}}
+      </div>
+    </div>
+    <div class="demo_area"></div>
   </mat-sidenav-content>
 </mat-sidenav-container>

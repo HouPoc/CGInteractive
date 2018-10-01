@@ -4,13 +4,26 @@
   max-width: 100%;
 }
 
-.mat-sidenav-content {
-
-}
 .mat-sidenav {
   position: fixed;
   box-shadow: 6px 0 6px rgba(0,0,0,.1);
-  width: 120px;
+  width: 200px;
   background-color: white;
   top:  64px;
+}
+
+.mat-sidenav a {
+  display: block;
+  text-decoration: none;
+  margin-top: 0.5em;
+  margin-left: 1rem;
+}
+
+.mat-sidenav-content {
+  top: 64px;
+}
+
+.mat-sidenav-content .text_content {
+  margin-top: 2rem;
+  margin-left: 1rem;
 }
